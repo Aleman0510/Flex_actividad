@@ -62,18 +62,19 @@
 
   }
   
-
-
-.flex-container {
+  .flex-container {
     display: flex;
-    justify-content: space-around;
-    padding:15px;
+    justify-content: center;
+    flex-wrap: wrap;
     
   }
 
   .image{
     width: 250px;
     height: 250px;
+    justify-content: space-between;
+    margin-right:140px;
+    margin-bottom: 20px;
     }
 
 .footer {
@@ -88,5 +89,6 @@
     border: 1px solid #000000;
 
 }
+
 
 
